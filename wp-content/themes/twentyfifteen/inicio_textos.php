@@ -92,12 +92,12 @@ $carousel = [
 // Quienes somos
 $nosotros = [
   [
-    'id' => 'foto-andreu',
-    'nombre' => 'Andreu García',
-    'img' => 'andreu-garcia.jpg',
-    'img-mobile' => 'marta-tornero.jpg',
-    'alt' => 'Andreu Garcia',
-    'funcion' => 'Full Stack Developer',
+    'id' => 'foto-marta',
+    'nombre' => 'Marta Tornero',
+    'img' => 'marta.png',
+    'img-mobile' => 'marta-arriba.png',
+    'alt' => 'Marta Tornero',
+    'funcion' => 'Copywriter & Community Manager',
     'descr' => 'Sed elementum vehicula nisl, a egestas velit rhoncus nec.Cras vel sapien tincidunt, lacinia risus vel, imperdiet neque.',
     'social' => [
       [
@@ -115,12 +115,12 @@ $nosotros = [
       ]
     ]
   ],[
-    'id' => 'foto-marta',
-    'nombre' => 'Marta Tornero',
-    'img' => 'marta-tornero.jpg',
-    'img-mobile' => 'andreu-garcia.jpg',
-    'alt' => 'Marta Tornero',
-    'funcion' => 'Copywriter & Community Manager',
+    'id' => 'foto-andreu',
+    'nombre' => 'Andreu García',
+    'img' => 'andreu.png',
+    'img-mobile' => 'andreu-abajo.png',
+    'alt' => 'Andreu Garcia',
+    'funcion' => 'Full Stack Developer',
     'descr' => 'Sed elementum vehicula nisl, a egestas velit rhoncus nec.Cras vel sapien tincidunt, lacinia risus vel, imperdiet neque.',
     'social' => [
       [
