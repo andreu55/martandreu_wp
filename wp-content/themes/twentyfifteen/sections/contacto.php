@@ -10,7 +10,7 @@
 <div class="card-container">
   <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal">
     <form action="" class="reveal-content">
-      <div class="row">
+      <div id="contact-form" class="row">
         <div class="col-md-7">
           <!-- <div class="form-group">
             <input type="email" class="form-control" id="email" placeholder="Email">
@@ -54,5 +54,5 @@
       </div>
     </form>
   </div>
-  <div class="card-image col-xs-12" id="contact-img"></div>
+  <div class="card-image col-xs-12 hidden-xs" id="contact-img"></div>
 </div>

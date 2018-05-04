@@ -80,26 +80,17 @@
     </div>
   </div>
 
-  <!-- Testimonios -->
-  <div class="section-container" id="testimonios">
-    <div class="row section-container-spacer text-center">
-      <div class="col-xs-12 col-md-12">
-        <h2>Testimonios</h2>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <?php include "sections/testimonios.php" ?>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Quienes somos -->
   <div class="section-container">
     <div class="container text-center">
       <?php include "sections/quienessomos.php" ?>
+    </div>
+  </div>
+
+  <!-- Testimonios -->
+  <div class="section-container" id="testimonios">
+    <div class="row section-container-spacer text-center">
+      <?php include "sections/testimonios.php" ?>
     </div>
   </div>
 
