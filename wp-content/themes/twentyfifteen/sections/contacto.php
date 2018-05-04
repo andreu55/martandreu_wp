@@ -1,5 +1,8 @@
 <div class="section-container-spacer">
-  <h2 class="text-center"><?= $getInTouch ?></h2>
+  <h2 class="text-center">
+    <i class="far fa-paper-plane fa-fw"></i>
+    <?= $getInTouch ?>
+  </h2>
   <p class="text-center">
     <?= $getInTouch_text ?>
   </p>
@@ -24,25 +27,25 @@
           <ul class="list-unstyled address-container">
             <li>
               <span class="fa-icon">
-                <i class="fa fa-fw fa-map-o" aria-hidden="true"></i>
+                <i class="fas fa-map fa-fw"></i>
               </span>
               Ruzafa, Valencia
             </li>
             <li>
               <span class="fa-icon">
-                <i class="fa fa-fw fa-phone" aria-hidden="true"></i>
+                <i class="fas fa-phone fa-fw"></i>
               </span>
               622 666 125
             </li>
             <li>
               <span class="fa-icon">
-                <i class="fa fa-fw fa-at" aria-hidden="true"></i>
+                <i class="fas fa-at fa-fw"></i>
               </span>
               andreu@martayandreu.com
             </li>
             <li>
               <span class="fa-icon">
-                <i class="fa fa-fw fa-at" aria-hidden="true"></i>
+                <i class="fas fa-at fa-fw"></i>
               </span>
               marta@andreuymarta.com
             </li>

@@ -16,7 +16,7 @@
           $posts_query = new WP_Query('posts_per_page=4');
           while ($posts_query->have_posts()) : $posts_query->the_post();
         ?>
-          <p><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <i class="fa fa-angle-left fa-fw" aria-hidden="true"></i></p>
+          <p><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <i class="fas fa-angle-left fa-fw"></i></p>
         <?php endwhile; wp_reset_query(); ?>
       </div>
       <br>

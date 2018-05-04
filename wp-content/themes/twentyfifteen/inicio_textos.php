@@ -7,16 +7,16 @@ $descripcion = get_bloginfo('description', 'display');
 
 $social = [
   [
-    'icon' => 'fa-facebook',
+    'icon' => 'fab fa-facebook-f',
     'url' => 'https://facebook.com'
   ],[
-    'icon' => 'fa-twitter',
+    'icon' => 'fab fa-twitter',
     'url' => 'https://twitter.com'
   ],[
-    'icon' => 'fa-linkedin',
+    'icon' => 'fab fa-linkedin-in',
     'url' => 'https://www.linkedin.com'
   ],[
-    'icon' => 'fa-rss',
+    'icon' => 'fas fa-rss',
     'url' => 'https://www.rss.com'
   ]
 ];
@@ -43,7 +43,7 @@ $escribenos = '¡Escríbenos aquí!';
 
 $send = 'Enviar';
 
-$carousel = [
+$proyectos = [
   [
     'titulo' => 'Moon',
     'modal_id' => 'holi',
@@ -89,6 +89,24 @@ $carousel = [
   ]
 ];
 
+$testimonios = [
+  [
+    'nombre' => 'Aroa Fernández',
+    'modal_id' => 'slider_1',
+    'active' => 1,
+    'img' => 'marta.png',
+    'descr' => 'Marta es una profesional excelente, tanto por su dedicación a los proyectos en los que se embarca, como en eficacia y rapidez. El trabajo de edición que ha realizado para nuestra empresa ha sido más de lo que nosotros teníamos pensado y nos ha ayudado a replantear algunos aspectos de nuestra web y nos ha permitido adecuarla a nuestras actuales necesidades.',
+    'url' => 'aroafernandez.com'
+  ],[
+    'nombre' => 'Isabel Llano',
+    'modal_id' => 'slider_2',
+    'active' => 0,
+    'img' => 'andreu.png',
+    'descr' => 'A veces desconocemos el valor de algunas profesiones. Con el afán de estar al día y aunar criterios contactamos con Marta Tornero para que nos hiciera una revisión de los textos, sobre los que aportó otra mirada y trabajó de manera exhaustiva. Gracias a ella me di cuenta de todo lo que podíamos mejorar y he aprendido a valorar esa otra visión: la que aporta un profesional.',
+    'url' => 'Instituto Valenciano de Terapias Naturales'
+  ]
+];
+
 // Quienes somos
 $nosotros = [
   [
@@ -101,16 +119,16 @@ $nosotros = [
     'descr' => 'Sed elementum vehicula nisl, a egestas velit rhoncus nec.Cras vel sapien tincidunt, lacinia risus vel, imperdiet neque.',
     'social' => [
       [
-        'icon' => 'fa-facebook',
+        'icon' => 'fab fa-facebook-f',
         'url' => 'https://facebook.com'
       ],[
-        'icon' => 'fa-twitter',
+        'icon' => 'fab fa-twitter',
         'url' => 'https://twitter.com'
       ],[
-        'icon' => 'fa-linkedin',
+        'icon' => 'fab fa-linkedin-in',
         'url' => 'https://www.linkedin.com'
       ],[
-        'icon' => 'fa-rss',
+        'icon' => 'fas fa-rss',
         'url' => 'https://www.linkedin.com'
       ]
     ]
@@ -124,16 +142,16 @@ $nosotros = [
     'descr' => 'Sed elementum vehicula nisl, a egestas velit rhoncus nec.Cras vel sapien tincidunt, lacinia risus vel, imperdiet neque.',
     'social' => [
       [
-        'icon' => 'fa-facebook',
+        'icon' => 'fab fa-facebook-f',
         'url' => 'https://facebook.com'
       ],[
-        'icon' => 'fa-twitter',
+        'icon' => 'fab fa-twitter',
         'url' => 'https://twitter.com'
       ],[
-        'icon' => 'fa-linkedin',
+        'icon' => 'fab fa-linkedin-in',
         'url' => 'https://www.linkedin.com'
       ],[
-        'icon' => 'fa-rss',
+        'icon' => 'fas fa-rss',
         'url' => 'https://www.linkedin.com'
       ]
     ]

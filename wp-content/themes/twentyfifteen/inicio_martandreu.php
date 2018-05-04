@@ -51,7 +51,8 @@
   <meta name="description" content="<?= $descripcion ?>">
   <title><?= $nombre_plano ?></title>
 
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
   <link href="<?= myurl('main.550dcf66.css') ?>" rel="stylesheet">
 </head>
 
@@ -68,16 +69,28 @@
     <?php include "sections/quehacemos.php" ?>
   </div>
 
-  <!-- Carousel -->
+  <!-- Carousel proyectos -->
   <div class="section-container">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <div id="carousel-example-generic" class="carousel carousel-fade slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-              <?php include "sections/carrousel.php" ?>
-            </div>
-          </div>
+          <?php include "sections/proyectos.php" ?>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonios -->
+  <div class="section-container" id="testimonios">
+    <div class="row section-container-spacer text-center">
+      <div class="col-xs-12 col-md-12">
+        <h2>Testimonios</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <?php include "sections/testimonios.php" ?>
         </div>
       </div>
     </div>
@@ -132,12 +145,6 @@
 
 <script type="text/javascript" src="<?= myurl('main.0cf8b554.js') ?>"></script>
 
-<!-- <script type="text/javascript">
-  function cambiaLang(url) {
-    var uri = <?//= $_SERVER['REQUEST_URI'] ?>;
-    window.history.pushState(url, '', uri+url);
-  }
-</script> -->
-
 </body>
+
 </html>
